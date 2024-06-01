@@ -69,6 +69,12 @@ const validateInputs = () => {
         setSuccess(password2);
     }
 
+    username.value = '';
+    email.value = '';
+    password.value = '';
+    password2.value = '';
+
 };
 
-const submit = document.querySelector('.submit')
+
+
